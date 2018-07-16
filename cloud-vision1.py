@@ -1,7 +1,12 @@
+'''
+# 1. install library
+# $ pip install google-cloud-vision
+'''
 import io
 import os
 import google.cloud.vision
 
+# Set google application credentials
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="./credential/vision-api-exit-89121177417b.json"
 
 # Create a Vision client.
