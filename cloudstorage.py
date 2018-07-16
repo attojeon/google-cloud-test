@@ -8,6 +8,7 @@ import google.cloud.storage
 
 # Set google application credentials
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="./credential/vision-api-exit-89121177417b.json"
+
 # Create a storage client.
 storage_client = google.cloud.storage.Client()
 
