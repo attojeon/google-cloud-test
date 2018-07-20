@@ -1,3 +1,7 @@
+'''
+영수증에서 인식할 수 있는 글자들을 박스처리 함.
+'''
+
 import argparse
 from enum import Enum
 import io
